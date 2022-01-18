@@ -47,7 +47,7 @@ int main(){
 		
 		//affichage du status de sortie du processus fils
 		if(WIFEXITED(returnStatus)){
-			sprintf(newline, "enseash [exit:%d|%ldms] %% ",WEXITSTATUS(returnStatus)*/,delay);
+			sprintf(newline, "enseash [exit:%d|%ldms] %% ",WEXITSTATUS(returnStatus),delay);
 		}else if(WIFSIGNALED(returnStatus)){
 			sprintf(newline, "enseash [sign:%d|%ldms] %% ",WTERMSIG(returnStatus),delay);
 		}

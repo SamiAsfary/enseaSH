@@ -7,5 +7,5 @@
 
 #define BUFFER_SIZE 64
 
-
 int cinstr(char*,char);
+
