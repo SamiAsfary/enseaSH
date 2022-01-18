@@ -1,0 +1,6 @@
+file.txt
+main
+main.c
+main.h
+Makefile
+test.txt
